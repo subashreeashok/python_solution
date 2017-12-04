@@ -1,0 +1,27 @@
+''' 
+ Name : Subahree 
+ Setno: 1 
+ Question_no:5
+ Description:Finding the power and root of number
+ ''' 
+
+
+
+try:
+    def math_fn(num):
+        p=2
+        r=1
+        #to check power <6
+        while p < 6: 
+            while r**p <= num:
+                if r**p == num:       
+                    print("root:"+str(r))
+                    print("power:"+str(p))
+                    ans = "True"
+                r =r+1        
+            p=p+1
+            r=1
+    num=int(raw_input("enter number:"))
+    math_fn(num)
+except Exception as e:
+    print(e)
