@@ -1,11 +1,11 @@
 '''
-Name : Subahree
+Name : Subashree
 Setno: 1
 Question_no:10a
 Description:replace x=-25
 '''
 
-x =-25
+x =abs(25)
 epsilon = 0.01
 numGuesses = 0
 low = 0.0
